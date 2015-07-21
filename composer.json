@@ -1,5 +1,5 @@
 {
-    "name": "swiftmailer/swiftmailer",
+    "name": "nick4fake/swiftmailer",
     "type": "library",
     "description": "Swiftmailer, free feature-rich PHP mailer",
     "keywords": ["mail","mailer","email"],
@@ -27,6 +27,9 @@
         "psr-0": {
             "Swift_": "tests/unit"
         }
+    },
+    "replace": {
+        "swiftmailer/swiftmailer": "self.version"
     },
     "extra": {
         "branch-alias": {
